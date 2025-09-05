@@ -3,8 +3,8 @@ on: push
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    name: SAST SCAN
+    name: Build and analyze
+    runs-on: windows-latest
     steps:
       - name: Set up JDK 17
         uses: actions/setup-java@v4
